@@ -74,7 +74,6 @@ class ScoresCollectionViewLayout: UICollectionViewFlowLayout {
           visibleIndexPathSet.insert(attributesItem.indexPath)
         }
       }
-      
     }
   }
   
