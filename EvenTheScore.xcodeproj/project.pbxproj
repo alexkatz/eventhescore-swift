@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B04E3CD1DFA7087004F37A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B04E3CC1DFA7087004F37A3 /* AppDelegate.swift */; };
+		3B04E3CF1DFA7087004F37A3 /* ScoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B04E3CE1DFA7087004F37A3 /* ScoresViewController.swift */; };
+		3B04E3D41DFA7087004F37A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B04E3D31DFA7087004F37A3 /* Assets.xcassets */; };
+		3B04E3DC1DFA7088004F37A3 /* EvenTheScore WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3B04E3DB1DFA7088004F37A3 /* EvenTheScore WatchKit App.app */; };
+		3B04E3E21DFA7088004F37A3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B04E3E01DFA7088004F37A3 /* Interface.storyboard */; };
+		3B04E3E41DFA7088004F37A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B04E3E31DFA7088004F37A3 /* Assets.xcassets */; };
+		3B04E3EB1DFA7088004F37A3 /* EvenTheScore WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3B04E3EA1DFA7088004F37A3 /* EvenTheScore WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3B04E3F21DFA7088004F37A3 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B04E3F11DFA7088004F37A3 /* InterfaceController.swift */; };
+		3B04E3F41DFA7088004F37A3 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B04E3F31DFA7088004F37A3 /* ExtensionDelegate.swift */; };
+		3B04E3F61DFA7088004F37A3 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B04E3F51DFA7088004F37A3 /* NotificationController.swift */; };
+		3B04E3F81DFA7088004F37A3 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B04E3F71DFA7088004F37A3 /* ComplicationController.swift */; };
+		3B04E3FA1DFA7088004F37A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B04E3F91DFA7088004F37A3 /* Assets.xcassets */; };
+		3BC8C8311E5CFA44004F2FC6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC8C8301E5CFA44004F2FC6 /* Constants.swift */; };
+		3BC8C8331E5D1B90004F2FC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC8C8321E5D1B90004F2FC6 /* LaunchScreen.storyboard */; };
+		3BD4B3971E5A990700808DB4 /* ScoreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD4B3951E5A990700808DB4 /* ScoreCollectionViewCell.swift */; };
+		3BD4B3981E5A990700808DB4 /* ScoreCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BD4B3961E5A990700808DB4 /* ScoreCollectionViewCell.xib */; };
+		3BD4B39A1E5A992A00808DB4 /* ScoresCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD4B3991E5A992A00808DB4 /* ScoresCollectionViewLayout.swift */; };
+		3BD4B39D1E5A99C700808DB4 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD4B39C1E5A99C700808DB4 /* UIViewExtensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B04E3DD1DFA7088004F37A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B04E3C11DFA7087004F37A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B04E3DA1DFA7088004F37A3;
+			remoteInfo = "EvenTheScore WatchKit App";
+		};
+		3B04E3EC1DFA7088004F37A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B04E3C11DFA7087004F37A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B04E3E91DFA7088004F37A3;
+			remoteInfo = "EvenTheScore WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3B04E4011DFA7088004F37A3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3B04E3EB1DFA7088004F37A3 /* EvenTheScore WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B04E4051DFA7088004F37A3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3B04E3DC1DFA7088004F37A3 /* EvenTheScore WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3B04E3C91DFA7087004F37A3 /* EvenTheScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvenTheScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B04E3CC1DFA7087004F37A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B04E3CE1DFA7087004F37A3 /* ScoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresViewController.swift; sourceTree = "<group>"; };
+		3B04E3D31DFA7087004F37A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B04E3D81DFA7087004F37A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B04E3DB1DFA7088004F37A3 /* EvenTheScore WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EvenTheScore WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B04E3E11DFA7088004F37A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3B04E3E31DFA7088004F37A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B04E3E51DFA7088004F37A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B04E3EA1DFA7088004F37A3 /* EvenTheScore WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "EvenTheScore WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B04E3F01DFA7088004F37A3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		3B04E3F11DFA7088004F37A3 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		3B04E3F31DFA7088004F37A3 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		3B04E3F51DFA7088004F37A3 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		3B04E3F71DFA7088004F37A3 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		3B04E3F91DFA7088004F37A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B04E3FB1DFA7088004F37A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BC8C8301E5CFA44004F2FC6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3BC8C8321E5D1B90004F2FC6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../../../.Trash/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BD4B3951E5A990700808DB4 /* ScoreCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreCollectionViewCell.swift; sourceTree = "<group>"; };
+		3BD4B3961E5A990700808DB4 /* ScoreCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScoreCollectionViewCell.xib; sourceTree = "<group>"; };
+		3BD4B3991E5A992A00808DB4 /* ScoresCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoresCollectionViewLayout.swift; sourceTree = "<group>"; };
+		3BD4B39C1E5A99C700808DB4 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B04E3C61DFA7087004F37A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B04E3E71DFA7088004F37A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B04E3C01DFA7087004F37A3 = {
+			isa = PBXGroup;
+			children = (
+				3B04E3CB1DFA7087004F37A3 /* EvenTheScore */,
+				3B04E3DF1DFA7088004F37A3 /* EvenTheScore WatchKit App */,
+				3B04E3EE1DFA7088004F37A3 /* EvenTheScore WatchKit Extension */,
+				3B04E3CA1DFA7087004F37A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B04E3CA1DFA7087004F37A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B04E3C91DFA7087004F37A3 /* EvenTheScore.app */,
+				3B04E3DB1DFA7088004F37A3 /* EvenTheScore WatchKit App.app */,
+				3B04E3EA1DFA7088004F37A3 /* EvenTheScore WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B04E3CB1DFA7087004F37A3 /* EvenTheScore */ = {
+			isa = PBXGroup;
+			children = (
+				3BC8C82F1E5CFA3A004F2FC6 /* Misc */,
+				3BD4B39B1E5A99B700808DB4 /* Extensions */,
+				3BD4B3941E5A97AC00808DB4 /* Scores */,
+				3B04E3CC1DFA7087004F37A3 /* AppDelegate.swift */,
+				3B04E3D31DFA7087004F37A3 /* Assets.xcassets */,
+				3BC8C8321E5D1B90004F2FC6 /* LaunchScreen.storyboard */,
+				3B04E3D81DFA7087004F37A3 /* Info.plist */,
+			);
+			path = EvenTheScore;
+			sourceTree = "<group>";
+		};
+		3B04E3DF1DFA7088004F37A3 /* EvenTheScore WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3B04E3E01DFA7088004F37A3 /* Interface.storyboard */,
+				3B04E3E31DFA7088004F37A3 /* Assets.xcassets */,
+				3B04E3E51DFA7088004F37A3 /* Info.plist */,
+			);
+			path = "EvenTheScore WatchKit App";
+			sourceTree = "<group>";
+		};
+		3B04E3EE1DFA7088004F37A3 /* EvenTheScore WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3B04E3F11DFA7088004F37A3 /* InterfaceController.swift */,
+				3B04E3F31DFA7088004F37A3 /* ExtensionDelegate.swift */,
+				3B04E3F51DFA7088004F37A3 /* NotificationController.swift */,
+				3B04E3F71DFA7088004F37A3 /* ComplicationController.swift */,
+				3B04E3F91DFA7088004F37A3 /* Assets.xcassets */,
+				3B04E3FB1DFA7088004F37A3 /* Info.plist */,
+				3B04E3EF1DFA7088004F37A3 /* Supporting Files */,
+			);
+			path = "EvenTheScore WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		3B04E3EF1DFA7088004F37A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B04E3F01DFA7088004F37A3 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BC8C82F1E5CFA3A004F2FC6 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				3BC8C8301E5CFA44004F2FC6 /* Constants.swift */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
+		3BD4B3941E5A97AC00808DB4 /* Scores */ = {
+			isa = PBXGroup;
+			children = (
+				3B04E3CE1DFA7087004F37A3 /* ScoresViewController.swift */,
+				3BD4B3951E5A990700808DB4 /* ScoreCollectionViewCell.swift */,
+				3BD4B3961E5A990700808DB4 /* ScoreCollectionViewCell.xib */,
+				3BD4B3991E5A992A00808DB4 /* ScoresCollectionViewLayout.swift */,
+			);
+			name = Scores;
+			sourceTree = "<group>";
+		};
+		3BD4B39B1E5A99B700808DB4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3BD4B39C1E5A99C700808DB4 /* UIViewExtensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B04E3C81DFA7087004F37A3 /* EvenTheScore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B04E4061DFA7088004F37A3 /* Build configuration list for PBXNativeTarget "EvenTheScore" */;
+			buildPhases = (
+				3B04E3C51DFA7087004F37A3 /* Sources */,
+				3B04E3C61DFA7087004F37A3 /* Frameworks */,
+				3B04E3C71DFA7087004F37A3 /* Resources */,
+				3B04E4051DFA7088004F37A3 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B04E3DE1DFA7088004F37A3 /* PBXTargetDependency */,
+			);
+			name = EvenTheScore;
+			productName = EvenTheScore;
+			productReference = 3B04E3C91DFA7087004F37A3 /* EvenTheScore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B04E3DA1DFA7088004F37A3 /* EvenTheScore WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B04E4021DFA7088004F37A3 /* Build configuration list for PBXNativeTarget "EvenTheScore WatchKit App" */;
+			buildPhases = (
+				3B04E3D91DFA7088004F37A3 /* Resources */,
+				3B04E4011DFA7088004F37A3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B04E3ED1DFA7088004F37A3 /* PBXTargetDependency */,
+			);
+			name = "EvenTheScore WatchKit App";
+			productName = "EvenTheScore WatchKit App";
+			productReference = 3B04E3DB1DFA7088004F37A3 /* EvenTheScore WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3B04E3E91DFA7088004F37A3 /* EvenTheScore WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B04E3FE1DFA7088004F37A3 /* Build configuration list for PBXNativeTarget "EvenTheScore WatchKit Extension" */;
+			buildPhases = (
+				3B04E3E61DFA7088004F37A3 /* Sources */,
+				3B04E3E71DFA7088004F37A3 /* Frameworks */,
+				3B04E3E81DFA7088004F37A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EvenTheScore WatchKit Extension";
+			productName = "EvenTheScore WatchKit Extension";
+			productReference = 3B04E3EA1DFA7088004F37A3 /* EvenTheScore WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B04E3C11DFA7087004F37A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Alexander Katz";
+				TargetAttributes = {
+					3B04E3C81DFA7087004F37A3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = UX2RCP32D2;
+						ProvisioningStyle = Automatic;
+					};
+					3B04E3DA1DFA7088004F37A3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = UX2RCP32D2;
+						ProvisioningStyle = Automatic;
+					};
+					3B04E3E91DFA7088004F37A3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = UX2RCP32D2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3B04E3C41DFA7087004F37A3 /* Build configuration list for PBXProject "EvenTheScore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B04E3C01DFA7087004F37A3;
+			productRefGroup = 3B04E3CA1DFA7087004F37A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B04E3C81DFA7087004F37A3 /* EvenTheScore */,
+				3B04E3DA1DFA7088004F37A3 /* EvenTheScore WatchKit App */,
+				3B04E3E91DFA7088004F37A3 /* EvenTheScore WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B04E3C71DFA7087004F37A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC8C8331E5D1B90004F2FC6 /* LaunchScreen.storyboard in Resources */,
+				3B04E3D41DFA7087004F37A3 /* Assets.xcassets in Resources */,
+				3BD4B3981E5A990700808DB4 /* ScoreCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B04E3D91DFA7088004F37A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B04E3E41DFA7088004F37A3 /* Assets.xcassets in Resources */,
+				3B04E3E21DFA7088004F37A3 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B04E3E81DFA7088004F37A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B04E3FA1DFA7088004F37A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B04E3C51DFA7087004F37A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B04E3CF1DFA7087004F37A3 /* ScoresViewController.swift in Sources */,
+				3BD4B39D1E5A99C700808DB4 /* UIViewExtensions.swift in Sources */,
+				3B04E3CD1DFA7087004F37A3 /* AppDelegate.swift in Sources */,
+				3BD4B39A1E5A992A00808DB4 /* ScoresCollectionViewLayout.swift in Sources */,
+				3BD4B3971E5A990700808DB4 /* ScoreCollectionViewCell.swift in Sources */,
+				3BC8C8311E5CFA44004F2FC6 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B04E3E61DFA7088004F37A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B04E3F61DFA7088004F37A3 /* NotificationController.swift in Sources */,
+				3B04E3F81DFA7088004F37A3 /* ComplicationController.swift in Sources */,
+				3B04E3F41DFA7088004F37A3 /* ExtensionDelegate.swift in Sources */,
+				3B04E3F21DFA7088004F37A3 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B04E3DE1DFA7088004F37A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B04E3DA1DFA7088004F37A3 /* EvenTheScore WatchKit App */;
+			targetProxy = 3B04E3DD1DFA7088004F37A3 /* PBXContainerItemProxy */;
+		};
+		3B04E3ED1DFA7088004F37A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B04E3E91DFA7088004F37A3 /* EvenTheScore WatchKit Extension */;
+			targetProxy = 3B04E3EC1DFA7088004F37A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B04E3E01DFA7088004F37A3 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B04E3E11DFA7088004F37A3 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B04E3FC1DFA7088004F37A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B04E3FD1DFA7088004F37A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B04E3FF1DFA7088004F37A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = UX2RCP32D2;
+				INFOPLIST_FILE = "EvenTheScore WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexkatz.EvenTheScore.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		3B04E4001DFA7088004F37A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = UX2RCP32D2;
+				INFOPLIST_FILE = "EvenTheScore WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexkatz.EvenTheScore.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		3B04E4031DFA7088004F37A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UX2RCP32D2;
+				IBSC_MODULE = EvenTheScore_WatchKit_Extension;
+				INFOPLIST_FILE = "EvenTheScore WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexkatz.EvenTheScore.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		3B04E4041DFA7088004F37A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UX2RCP32D2;
+				IBSC_MODULE = EvenTheScore_WatchKit_Extension;
+				INFOPLIST_FILE = "EvenTheScore WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexkatz.EvenTheScore.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		3B04E4071DFA7088004F37A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UX2RCP32D2;
+				INFOPLIST_FILE = EvenTheScore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexkatz.EvenTheScore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3B04E4081DFA7088004F37A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UX2RCP32D2;
+				INFOPLIST_FILE = EvenTheScore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexkatz.EvenTheScore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B04E3C41DFA7087004F37A3 /* Build configuration list for PBXProject "EvenTheScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B04E3FC1DFA7088004F37A3 /* Debug */,
+				3B04E3FD1DFA7088004F37A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B04E3FE1DFA7088004F37A3 /* Build configuration list for PBXNativeTarget "EvenTheScore WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B04E3FF1DFA7088004F37A3 /* Debug */,
+				3B04E4001DFA7088004F37A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B04E4021DFA7088004F37A3 /* Build configuration list for PBXNativeTarget "EvenTheScore WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B04E4031DFA7088004F37A3 /* Debug */,
+				3B04E4041DFA7088004F37A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B04E4061DFA7088004F37A3 /* Build configuration list for PBXNativeTarget "EvenTheScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B04E4071DFA7088004F37A3 /* Debug */,
+				3B04E4081DFA7088004F37A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B04E3C11DFA7087004F37A3 /* Project object */;
+}
