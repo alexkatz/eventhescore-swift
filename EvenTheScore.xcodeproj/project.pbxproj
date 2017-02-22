@@ -20,7 +20,7 @@
 		3B04E3F81DFA7088004F37A3 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B04E3F71DFA7088004F37A3 /* ComplicationController.swift */; };
 		3B04E3FA1DFA7088004F37A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B04E3F91DFA7088004F37A3 /* Assets.xcassets */; };
 		3BC8C8311E5CFA44004F2FC6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC8C8301E5CFA44004F2FC6 /* Constants.swift */; };
-		3BC8C8331E5D1B90004F2FC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC8C8321E5D1B90004F2FC6 /* LaunchScreen.storyboard */; };
+		3BC8C8361E5D2875004F2FC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC8C8341E5D2875004F2FC6 /* LaunchScreen.storyboard */; };
 		3BD4B3971E5A990700808DB4 /* ScoreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD4B3951E5A990700808DB4 /* ScoreCollectionViewCell.swift */; };
 		3BD4B3981E5A990700808DB4 /* ScoreCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BD4B3961E5A990700808DB4 /* ScoreCollectionViewCell.xib */; };
 		3BD4B39A1E5A992A00808DB4 /* ScoresCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD4B3991E5A992A00808DB4 /* ScoresCollectionViewLayout.swift */; };
@@ -88,7 +88,7 @@
 		3B04E3F91DFA7088004F37A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B04E3FB1DFA7088004F37A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BC8C8301E5CFA44004F2FC6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		3BC8C8321E5D1B90004F2FC6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../../../.Trash/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BC8C8351E5D2875004F2FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../Downloads/tempi-fft-master/TempiFFT/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		3BD4B3951E5A990700808DB4 /* ScoreCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreCollectionViewCell.swift; sourceTree = "<group>"; };
 		3BD4B3961E5A990700808DB4 /* ScoreCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScoreCollectionViewCell.xib; sourceTree = "<group>"; };
 		3BD4B3991E5A992A00808DB4 /* ScoresCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoresCollectionViewLayout.swift; sourceTree = "<group>"; };
@@ -141,7 +141,7 @@
 				3BD4B3941E5A97AC00808DB4 /* Scores */,
 				3B04E3CC1DFA7087004F37A3 /* AppDelegate.swift */,
 				3B04E3D31DFA7087004F37A3 /* Assets.xcassets */,
-				3BC8C8321E5D1B90004F2FC6 /* LaunchScreen.storyboard */,
+				3BC8C8341E5D2875004F2FC6 /* LaunchScreen.storyboard */,
 				3B04E3D81DFA7087004F37A3 /* Info.plist */,
 			);
 			path = EvenTheScore;
@@ -314,7 +314,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BC8C8331E5D1B90004F2FC6 /* LaunchScreen.storyboard in Resources */,
+				3BC8C8361E5D2875004F2FC6 /* LaunchScreen.storyboard in Resources */,
 				3B04E3D41DFA7087004F37A3 /* Assets.xcassets in Resources */,
 				3BD4B3981E5A990700808DB4 /* ScoreCollectionViewCell.xib in Resources */,
 			);
@@ -386,6 +386,14 @@
 				3B04E3E11DFA7088004F37A3 /* Base */,
 			);
 			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		3BC8C8341E5D2875004F2FC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BC8C8351E5D2875004F2FC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
