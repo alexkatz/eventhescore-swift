@@ -9,5 +9,6 @@
 import UIKit
 
 struct Constants {
-  static let padding = CGFloat(10)
+  static let PADDING = CGFloat(10)
+  static let CELL_HEIGHT = CGFloat(44)
 }

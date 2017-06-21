@@ -19,12 +19,20 @@
 		3B04E3F61DFA7088004F37A3 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B04E3F51DFA7088004F37A3 /* NotificationController.swift */; };
 		3B04E3F81DFA7088004F37A3 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B04E3F71DFA7088004F37A3 /* ComplicationController.swift */; };
 		3B04E3FA1DFA7088004F37A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B04E3F91DFA7088004F37A3 /* Assets.xcassets */; };
+		3B2405F11EF6009D0001FDB5 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2405EE1EF6009D0001FDB5 /* SnapKit.framework */; };
+		3B2405F21EF6009D0001FDB5 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2405EE1EF6009D0001FDB5 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3B2405F51EF600B20001FDB5 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2405F41EF600B20001FDB5 /* Score.swift */; };
+		3B2405F71EF6038F0001FDB5 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2405F61EF6038F0001FDB5 /* RealmSwift.framework */; };
+		3B2405F81EF6038F0001FDB5 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2405F61EF6038F0001FDB5 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3B2405FA1EF603B60001FDB5 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2405F91EF603B60001FDB5 /* Realm.framework */; };
+		3B2405FB1EF603B60001FDB5 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2405F91EF603B60001FDB5 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3B357A461EF9EF6300BF8223 /* Dip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B357A451EF9EF6300BF8223 /* Dip.framework */; };
+		3B357A471EF9EF6300BF8223 /* Dip.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3B357A451EF9EF6300BF8223 /* Dip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3BC8C8311E5CFA44004F2FC6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC8C8301E5CFA44004F2FC6 /* Constants.swift */; };
 		3BC8C8361E5D2875004F2FC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC8C8341E5D2875004F2FC6 /* LaunchScreen.storyboard */; };
 		3BD4B3971E5A990700808DB4 /* ScoreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD4B3951E5A990700808DB4 /* ScoreCollectionViewCell.swift */; };
-		3BD4B3981E5A990700808DB4 /* ScoreCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BD4B3961E5A990700808DB4 /* ScoreCollectionViewCell.xib */; };
-		3BD4B39A1E5A992A00808DB4 /* ScoresCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD4B3991E5A992A00808DB4 /* ScoresCollectionViewLayout.swift */; };
-		3BD4B39D1E5A99C700808DB4 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD4B39C1E5A99C700808DB4 /* UIViewExtensions.swift */; };
+		3BE6FA181EF6D7D00006697F /* NSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE6FA171EF6D7D00006697F /* NSDate.swift */; };
+		3BE6FA1A1EF6F3AE0006697F /* ScoreHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE6FA191EF6F3AE0006697F /* ScoreHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +75,20 @@
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3B2405F31EF6009D0001FDB5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3B2405FB1EF603B60001FDB5 /* Realm.framework in Embed Frameworks */,
+				3B2405F81EF6038F0001FDB5 /* RealmSwift.framework in Embed Frameworks */,
+				3B357A471EF9EF6300BF8223 /* Dip.framework in Embed Frameworks */,
+				3B2405F21EF6009D0001FDB5 /* SnapKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -87,12 +109,17 @@
 		3B04E3F71DFA7088004F37A3 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		3B04E3F91DFA7088004F37A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B04E3FB1DFA7088004F37A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B2405ED1EF6009D0001FDB5 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		3B2405EE1EF6009D0001FDB5 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		3B2405F41EF600B20001FDB5 /* Score.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		3B2405F61EF6038F0001FDB5 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		3B2405F91EF603B60001FDB5 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		3B357A451EF9EF6300BF8223 /* Dip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Dip.framework; path = Carthage/Build/iOS/Dip.framework; sourceTree = "<group>"; };
 		3BC8C8301E5CFA44004F2FC6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3BC8C8351E5D2875004F2FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../Downloads/tempi-fft-master/TempiFFT/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		3BD4B3951E5A990700808DB4 /* ScoreCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreCollectionViewCell.swift; sourceTree = "<group>"; };
-		3BD4B3961E5A990700808DB4 /* ScoreCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScoreCollectionViewCell.xib; sourceTree = "<group>"; };
-		3BD4B3991E5A992A00808DB4 /* ScoresCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoresCollectionViewLayout.swift; sourceTree = "<group>"; };
-		3BD4B39C1E5A99C700808DB4 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		3BE6FA171EF6D7D00006697F /* NSDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDate.swift; sourceTree = "<group>"; };
+		3BE6FA191EF6F3AE0006697F /* ScoreHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +127,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B2405FA1EF603B60001FDB5 /* Realm.framework in Frameworks */,
+				3B2405F71EF6038F0001FDB5 /* RealmSwift.framework in Frameworks */,
+				3B357A461EF9EF6300BF8223 /* Dip.framework in Frameworks */,
+				3B2405F11EF6009D0001FDB5 /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +147,11 @@
 		3B04E3C01DFA7087004F37A3 = {
 			isa = PBXGroup;
 			children = (
+				3B357A451EF9EF6300BF8223 /* Dip.framework */,
+				3B2405F91EF603B60001FDB5 /* Realm.framework */,
+				3B2405F61EF6038F0001FDB5 /* RealmSwift.framework */,
+				3B2405ED1EF6009D0001FDB5 /* Realm.framework */,
+				3B2405EE1EF6009D0001FDB5 /* SnapKit.framework */,
 				3B04E3CB1DFA7087004F37A3 /* EvenTheScore */,
 				3B04E3DF1DFA7088004F37A3 /* EvenTheScore WatchKit App */,
 				3B04E3EE1DFA7088004F37A3 /* EvenTheScore WatchKit Extension */,
@@ -136,9 +172,10 @@
 		3B04E3CB1DFA7087004F37A3 /* EvenTheScore */ = {
 			isa = PBXGroup;
 			children = (
+				3B357A441EF9E8B800BF8223 /* Models */,
+				3BE6FA161EF6D7C40006697F /* Extensions */,
 				3BC8C82F1E5CFA3A004F2FC6 /* Misc */,
-				3BD4B39B1E5A99B700808DB4 /* Extensions */,
-				3BD4B3941E5A97AC00808DB4 /* Scores */,
+				3BD4B3941E5A97AC00808DB4 /* Views */,
 				3B04E3CC1DFA7087004F37A3 /* AppDelegate.swift */,
 				3B04E3D31DFA7087004F37A3 /* Assets.xcassets */,
 				3BC8C8341E5D2875004F2FC6 /* LaunchScreen.storyboard */,
@@ -179,6 +216,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3B357A441EF9E8B800BF8223 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3B2405F41EF600B20001FDB5 /* Score.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		3BC8C82F1E5CFA3A004F2FC6 /* Misc */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,21 +232,20 @@
 			name = Misc;
 			sourceTree = "<group>";
 		};
-		3BD4B3941E5A97AC00808DB4 /* Scores */ = {
+		3BD4B3941E5A97AC00808DB4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				3B04E3CE1DFA7087004F37A3 /* ScoresViewController.swift */,
 				3BD4B3951E5A990700808DB4 /* ScoreCollectionViewCell.swift */,
-				3BD4B3961E5A990700808DB4 /* ScoreCollectionViewCell.xib */,
-				3BD4B3991E5A992A00808DB4 /* ScoresCollectionViewLayout.swift */,
+				3BE6FA191EF6F3AE0006697F /* ScoreHeaderView.swift */,
 			);
-			name = Scores;
+			name = Views;
 			sourceTree = "<group>";
 		};
-		3BD4B39B1E5A99B700808DB4 /* Extensions */ = {
+		3BE6FA161EF6D7C40006697F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				3BD4B39C1E5A99C700808DB4 /* UIViewExtensions.swift */,
+				3BE6FA171EF6D7D00006697F /* NSDate.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -217,6 +261,7 @@
 				3B04E3C61DFA7087004F37A3 /* Frameworks */,
 				3B04E3C71DFA7087004F37A3 /* Resources */,
 				3B04E4051DFA7088004F37A3 /* Embed Watch Content */,
+				3B2405F31EF6009D0001FDB5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -269,7 +314,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Alexander Katz";
 				TargetAttributes = {
 					3B04E3C81DFA7087004F37A3 = {
@@ -316,7 +361,6 @@
 			files = (
 				3BC8C8361E5D2875004F2FC6 /* LaunchScreen.storyboard in Resources */,
 				3B04E3D41DFA7087004F37A3 /* Assets.xcassets in Resources */,
-				3BD4B3981E5A990700808DB4 /* ScoreCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,11 +389,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B04E3CF1DFA7087004F37A3 /* ScoresViewController.swift in Sources */,
-				3BD4B39D1E5A99C700808DB4 /* UIViewExtensions.swift in Sources */,
 				3B04E3CD1DFA7087004F37A3 /* AppDelegate.swift in Sources */,
-				3BD4B39A1E5A992A00808DB4 /* ScoresCollectionViewLayout.swift in Sources */,
 				3BD4B3971E5A990700808DB4 /* ScoreCollectionViewCell.swift in Sources */,
+				3BE6FA1A1EF6F3AE0006697F /* ScoreHeaderView.swift in Sources */,
 				3BC8C8311E5CFA44004F2FC6 /* Constants.swift in Sources */,
+				3BE6FA181EF6D7D00006697F /* NSDate.swift in Sources */,
+				3B2405F51EF600B20001FDB5 /* Score.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +462,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -466,6 +512,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -565,6 +612,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UX2RCP32D2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = EvenTheScore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexkatz.EvenTheScore;
@@ -578,6 +629,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UX2RCP32D2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = EvenTheScore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexkatz.EvenTheScore;

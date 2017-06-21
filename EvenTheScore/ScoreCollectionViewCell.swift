@@ -7,15 +7,39 @@
 //
 
 import UIKit
+import SnapKit
 
 class ScoreCollectionViewCell: UICollectionViewCell {
   
-  static let nib = UINib(nibName: "ScoreCollectionViewCell", bundle: nil)
   static let identifier = "ScoreCollectionViewCell"
   
-  override func awakeFromNib() {
-    super.awakeFromNib()
-    contentView.backgroundColor = UIColor.black.withAlphaComponent(0.2)
+  let titleLabel = UILabel()
+  let bottomBorderView = UIView()
+  
+  override init(frame: CGRect) {
+    super.init(frame: frame)
+    initialize()
+  }
+  
+  required init?(coder aDecoder: NSCoder) {
+    super.init(coder: aDecoder)
+    initialize()
+  }
+  
+  func initialize() {
+    contentView.addSubview(titleLabel)
+    titleLabel.snp.makeConstraints { make in
+      make.edges.equalToSuperview().inset(UIEdgeInsets(top: 0, left: Constants.PADDING, bottom: 0, right: 0))
+    }
+    
+    contentView.addSubview(bottomBorderView)
+    bottomBorderView.backgroundColor = UIColor.lightGray
+    bottomBorderView.snp.makeConstraints { make in
+      make.bottom.equalToSuperview()
+      make.left.equalToSuperview()
+      make.right.equalToSuperview()
+      make.height.equalTo(0.5)
+    }
   }
   
 }
